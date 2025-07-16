@@ -1,0 +1,44 @@
+/* Your styles go here */
+*
+{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    vertical-align: baseline;
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+body
+{
+    text-align: center;
+}
+.clearfix::after
+{
+    content:"";
+    display: table;
+    clear:both;
+}
+.pull-left
+{
+    padding: 1rem;
+    margin:0 5px;
+    float:left;
+    width: 30%;
+    text-align: left;
+    line-height: 565.75px;
+}
+.pull-right
+{
+    padding: 1rem;
+    margin:0 5px;
+    float:right;
+    width: 30%;
+    text-align: left;
+    line-height: 565.75px;
+}
