@@ -11,6 +11,21 @@ footer
     bottom: 0;
     width:100%;
     height:60px;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #b7e6f8, #92c1e2);
+    background-image: linear-gradient(to bottom, #A0C9D9, #7499B4);
+    border-image-slice: 1;
+}
+aside
+{
+    border: 4px solid #afe8ff;
+}
+article
+{
+    text-align: center;
+    border: 4px solid #afe8ff;
+    width: 1926px;
 }
 img
 {
@@ -21,6 +36,7 @@ img
     border-image: linear-gradient(to bottom, #A0C9D9, #7499B4);
     border-image-slice: 1;
     box-shadow: 5px 5px 10px #193b49;
+    margin-bottom: 1rem;
 }
 img:hover
 {
@@ -73,4 +89,17 @@ hr
     border-style: solid;
     border-image: linear-gradient(to bottom, #f5fff5, #ccfffb);
     border-image-slice: 1;
+}
+#topaside
+{
+    margin-bottom: 1rem;
+}
+aside h2
+{
+    text-decoration: underline;
+}
+article h2
+{
+    text-decoration: underline;
+    font-size: 30px;
 }
