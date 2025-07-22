@@ -1,13 +1,14 @@
 body
 {
     background-image: radial-gradient(circle at center, #447daf 15%, #6695be,#447daf, #80a5c5);
-    color:#cdebf7;
+    color:#88dcfd;
     font-family:Georgia, 'Times New Roman', Times, serif;
     padding-bottom: 60px;
 }
 footer
 {
-    position: absolute;
+    position: fixed;
+    left: 0;
     bottom: 0;
     width:100%;
     height:60px;
@@ -20,12 +21,17 @@ footer
 aside
 {
     border: 4px solid #afe8ff;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    background-color: white;
 }
 article
 {
     text-align: center;
     border: 4px solid #afe8ff;
     width: 1926px;
+    margin-bottom: 65px;
+    background-color: white;
 }
 img
 {
@@ -59,6 +65,7 @@ header
     padding: 1rem;
     font-weight: bolder;
     text-decoration: underline;
+    text-shadow: 1px 1px 1px #447daf;
 }
 nav
 {
@@ -102,4 +109,12 @@ article h2
 {
     text-decoration: underline;
     font-size: 30px;
+}
+#bottomaside ol
+{
+    display: inline-block;
+}
+#topaside ul
+{
+    display: inline-block;
 }
